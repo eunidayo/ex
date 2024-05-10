@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  font-family: 'omyu_pretty';
+}
+body {
+  min-width: 1280px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 1px solid greenyellow;
+}
+.inner {
+  width: 1200px;
+  margin: 0px auto 200px;
+}
+.inner > .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  gap: 30px;
+}
+h2 {
+  color: #666;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+.left {
+  padding-right: 12px;
+}
+.right {
+  padding-left: 12px;
+}
+.inner .contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contents .box {
+  width: 290px;
+  height: 230px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 0 20px 0;
+  color: #fff;
+  display: flex;
+  flex: 1 1 290px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.contents .box .subtitle {
+  font-size: 30px;
+  font-weight: 700;
+}
+.contents .box .copy {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  max-height: 5.2rem;
+}
+.contents .box .date {
+  font-size: 12px;
+  color: #FFF;
+  text-align: justify;
+  font-weight: 400;
+}
+.contents .box .tag {
+  display: flex;
+  align-items: baseline;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+}
+.contents .box .bt {
+  color: #FFF;
+  border: 1px solid #FFF;
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 5px 10px;
+  background: none;
+}
+.contents .box.b5 .bt,
+.contents .box.b9 .bt {
+  color: #646464;
+  border: 1px solid #C4C4C4;
+  /* text-decorat ion: none; */
+  background: none;
+}
+.box.b1 {
+  background: url(/ex/image/dstory/dstory1.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.box.b2 {
+  background: #DB0D26;
+}
+.box.b3 {
+  background: #F5F6F7;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 20px 0 20px;
+}
+.box.b3 > .subtitle {
+  color: #666666;
+}
+.box.b4 {
+  background: url(/ex/image/dstory/dstory2.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.box.b5 {
+  background: #F5F6F7;
+}
+.box.b5 > .subtitle,
+.box.b5 > .copy,
+.box.b5 > .date {
+  color: #666666;
+}
+.box.b6 {
+  background: url(/ex/image/dstory/dstory3.png) 50% 50% no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 690px;
+  /* flex: 690px; */
+  margin: 0 20px 0 0;
+}
+.box.b7 {
+  background: url(/ex/image/dstory/dstory4.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.box.b8 {
+  background: url(/ex/image/dstory/dstory5.png) 50% 50% no-repeat;
+  background-size: cover;
+}
+.box.b10 {
+  background: url(/ex/image/dstory/dstory10.png) 50% 50% no-repeat;
+  background-size: cover;
+  margin: 0 20px 0 20px;
+}
+.box.b3.b11 {
+  margin: 0px;
+}
