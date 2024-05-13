@@ -6,7 +6,7 @@
 
 /* css 초기화 하는 방식 2가지 */
 * {
-  /* outline: 1px solid darkblue; */
+  outline: 1px solid darkblue;
   /* padding: 0;
   margin: 0; */
   box-sizing: border-box;
@@ -31,7 +31,6 @@ h1 {
   flex-direction: column;
   align-items: center;
 } */
-
 .inner {
   width: 1200px;
   display: flex;
@@ -64,7 +63,6 @@ section:nth-of-type(2) img {
 }
 .txtBox h3 {
   padding: 10px 0 45px;
-  /* margin: 10px 0 45px; */
   font-size: 50px;
   font-weight: 800;
   line-height: 1;

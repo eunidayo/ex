@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+h1 {
+  font-size: 30px;
+  color: blueviolet
+}
+section {
+  gap: 20px;
+}
+.txtBox {
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}

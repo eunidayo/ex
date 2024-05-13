@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 1px solid greenyellow;
+}
+
+.tabs2 {
+  list-style: none;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.tabs2 input[type="radio"] {
+  display: none;
+}
+.tabs2 > li > label {
+  padding: 10px 30px;
+  background: palevioletred;
+}
+.tabs2 > li > div {
+  min-width: 600px;
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: skyblue;
+  display: none;
+}
+.tabs2 input[type="radio"]:checked + label {
+  background: goldenrod;
+  color: white;
+  font-weight: bold;
+}
+.tabs2 input[type="radio"]:checked ~ div {
+  display: block;
+  color: white;
+}
